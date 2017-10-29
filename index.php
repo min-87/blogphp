@@ -1,5 +1,5 @@
 ﻿<?php
-
+// git test
 include("blocks/db.php"); // Соединяемся с базой данных
 $result = mysqli_query($db,"SELECT title,meta_d,meta_k,text FROM settings WHERE page='index'");//Обращаемся к таблице в БД
 
